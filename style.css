@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&display=swap');
+
+.up-podval{
+    width: 100%;
+    background-color: #131415;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+
+.logo{
+    color: #F89513;
+    margin-left: 30px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 1.4;
+}
+
+.texts{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 350px;
+    margin: 0 auto;
+    padding: 0 20px;
+    color: #ffffff;
+    
+
+}
+
+.txt{
+    flex: 1;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 20px;
+}
+
+.txt3{
+    flex: 1;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 20px;
+    color: #F89513;
+}
+
+.left{
+    margin-right: 20px;
+    text-align: right;
+}
+
+.txt2{
+    color: #F89513;
+    text-decoration: underline;
+}
+
+
+
+.section {
+    background-color: transparent;
+    padding-left: 100px;
+    margin-top: 40px;
+    max-width: 80%;
+    margin: 40px auto;
+}
+
+.title {
+    font-size: 60px;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 25px;
+    padding-top: 25px;
+    margin-top: 30px;
+    color: #000000;
+}
+
+.razdel{
+    color: #F89513;
+    text-decoration: underline;
+}
+.razdels{
+    display: flex;
+}
+
+.carts{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+}
+
+.carts li{
+    width: calc(33.33% - 14px);
+    margin-bottom: 15px;
+}
+
+.text{
+    margin-top: 10px;
+    width: 80%;
+    font-size: 1.4rem;
+}
+
+
+@media (max-width: 1024px) {
+    .carts li {
+        width: calc(50% - 10px);
+    }
+}
+
+@media (max-width: 768px) {
+    .carts li {
+        width: 100%;
+    }
+}
+
+
+.image{
+    width: 400px;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.black{
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.text_light{
+    position: relative;
+    z-index: 2;
+    color: white;
+}
+.yoga_img{
+    background-image: url(./images/yoga.png);
+}
+
+.fit_img{
+    background-image: url(./images/zal.png);
+}
+
+.diet_img{
+    background-image: url(./images/2.png);
+}
+
+.pet_img{
+    background-image: url(./images/4.png);
+}
+
+.kros_img{
+    background-image: url(./images/5.png);
+}
+
+.bas_img{
+    background-image: url(./images/3.png);
+}
+
+
+
+
+.imgs{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    justify-content: center;
+    margin-left: 70px;
+}
+
+.ic2{
+    width: calc(33.33% - 14px);
+    margin-bottom: 15px;
+}
+
+
+
+.logo1{
+    color: #F89513;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 1.4;
+}
+
+.texts1{
+    max-width: 350px;
+    color: #ffffff;
+    margin-left: 30px;
+}
+
+
+.down-podval{
+    width: 100%;
+    background-color: #131415;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.s-text{
+    display: block;
+}
+
+.social{
+    margin-right: 30px;
+}
+
+.p-txt{
+    color: #979797;
+}
+
